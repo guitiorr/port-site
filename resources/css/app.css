@@ -1,7 +1,39 @@
-* {
-    background-color: wheat;
+body {
+    background-color: rgb(22, 22, 41);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-h1 {
+* {
     color: white;
+    font-family: Handjet;
 }
+
+.opener {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: 1s ease;
+}
+
+.opener p {
+    font-size: 10vh;
+    transition: 1s ease;
+}
+
+.opener span {
+    color: rgb(49, 228, 49);
+    transition: 1s ease;
+}
+
+.opener svg {
+    size: 10vh;
+}
+
