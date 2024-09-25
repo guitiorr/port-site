@@ -9,7 +9,7 @@ body {
     box-sizing: border-box; /* Ensure padding and border are included in width/height calculations */
 }
 
-.opener {
+.openContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,46 +20,90 @@ body {
     text-align: center; /* Center text in the opener */
 }
 
-.opener p {
+.openContainer p {
     font-size: 10vh;
     transition: 1s ease;
     margin: 0; /* Remove default margin */
 }
 
-.opener span {
+.profilespan {
     color: rgb(49, 228, 49);
     transition: 1s ease;
 }
 
-.opener svg {
-    transform: rotate(12deg);
-    margin-top: 70px; /* Add space above the SVG */
+@keyframes rotateSvg {
+    0% {
+        transform: rotate(-12deg);
+    }
+    50% {
+        transform: rotate(12deg);
+    }
+    100% {
+        transform: rotate(-12deg);
+    }
 }
 
-.par {
-    height: 100vh;
-    position: relative;
-    overflow: hidden; /* Hide overflow for parallax effect */
-    transition: transform 0.1s ease-out; /* Smooth transition for the parallax effect */
-}
-
-.about {
-    background-color: rgb(40, 40, 80);
+.headerContainer {
     display: flex;
-    flex-direction: column; /* Stack content vertically */
-    justify-content: center;
-    align-items: center;
-    font-size: 5vh;
-    padding: 20px; /* Add padding for inner spacing */
-    text-align: center; /* Center text in the about section */
 }
 
-.about h2 {
-    margin: 0; /* Remove default margin */
-    font-size: 6vh; /* Set a size for the heading */
+.myname {
+    display: flex;
+    flex-direction: column;
 }
 
-.about p {
-    font-size: 4vh; /* Set a size for the paragraph text */
-    margin-top: 10px; /* Space above paragraph */
+.namebottom {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/* Keyframes for blinking effect */
+@keyframes blink {
+    0%, 100% {
+        opacity: 0; /* Fully transparent */
+        transform: scale(1); /* Normal size */
+    }
+    50% {
+        opacity: 1; /* Fully visible */
+        transform: scale(1); /* Slightly larger */
+    }
+}
+
+.dot {
+    position: relative; /* Use relative positioning */
+    display: inline-block; /* Ensure it behaves like text */
+    font-size: 60px;
+    transition: opacity 1s ease, transform 1s ease; /* Specify properties for the transition */
+    animation: blink 1.5s infinite; /* Optional: Add a blinking effect */
+}
+
+.bracketTop {
+    text-align: left;
+}
+
+.bracketBottom {
+    text-align: right;
+}
+
+.tickspan {
+    color: rgb(0, 174, 255);
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+    margin-left: 8vh;
+}
+
+.linksContainer {
+    display: flex; /* Ensure icons are in a row */
+    align-items: center; /* Center icons vertically */
+    margin-left: 1rem; /* Add some space to the left of the icons */
+}
+
+
+.github, .linkedin {
+    margin-right: 1rem; /* Space between the icons */
 }
