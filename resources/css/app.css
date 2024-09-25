@@ -1,17 +1,12 @@
 body {
     background-color: rgb(22, 22, 41);
     margin: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
 }
 
 * {
     color: white;
-    font-family: Handjet;
+    font-family: 'Handjet', sans-serif;
+    box-sizing: border-box; /* Ensure padding and border are included in width/height calculations */
 }
 
 .opener {
@@ -21,11 +16,14 @@ body {
     align-items: center;
     height: 100vh;
     transition: 1s ease;
+    width: 100%;
+    text-align: center; /* Center text in the opener */
 }
 
 .opener p {
     font-size: 10vh;
     transition: 1s ease;
+    margin: 0; /* Remove default margin */
 }
 
 .opener span {
@@ -34,6 +32,34 @@ body {
 }
 
 .opener svg {
-    size: 10vh;
+    transform: rotate(12deg);
+    margin-top: 70px; /* Add space above the SVG */
 }
 
+.par {
+    height: 100vh;
+    position: relative;
+    overflow: hidden; /* Hide overflow for parallax effect */
+    transition: transform 0.1s ease-out; /* Smooth transition for the parallax effect */
+}
+
+.about {
+    background-color: rgb(40, 40, 80);
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    padding: 20px; /* Add padding for inner spacing */
+    text-align: center; /* Center text in the about section */
+}
+
+.about h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 6vh; /* Set a size for the heading */
+}
+
+.about p {
+    font-size: 4vh; /* Set a size for the paragraph text */
+    margin-top: 10px; /* Space above paragraph */
+}

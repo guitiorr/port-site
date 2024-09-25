@@ -12,20 +12,26 @@
 </head>
 <body>
 
-    <div class="opener">
+    {{-- <div class="par opener">
         <div class="">
             <p class="">Hello! Welcome to my <span class="profilespan">PROFILE!</span></p>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
             <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-          </svg>
-    </div>
+        </svg>
+    </div> --}}
 
-    <div class="about me">
+    {{-- <div class="par about">
         <div class="">
             <p>About ME!</p>
         </div>
-    </div>
+        <div class="content">
+            <h2>My Story</h2>
+            <p>Here's a little bit about me...</p>
+        </div>
+    </div> --}}
+
+
 </body>
 </html>
 
