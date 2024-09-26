@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     transition: 1s ease;
     width: 100%;
     text-align: center; /* Center text in the opener */
@@ -29,18 +29,6 @@ body {
 .profilespan {
     color: rgb(49, 228, 49);
     transition: 1s ease;
-}
-
-@keyframes rotateSvg {
-    0% {
-        transform: rotate(-12deg);
-    }
-    50% {
-        transform: rotate(12deg);
-    }
-    100% {
-        transform: rotate(-12deg);
-    }
 }
 
 .headerContainer {
@@ -74,7 +62,7 @@ body {
     position: relative; /* Use relative positioning */
     display: inline-block; /* Ensure it behaves like text */
     font-size: 60px;
-    transition: opacity 1s ease, transform 1s ease; /* Specify properties for the transition */
+    transition: opacity 1s; /* Specify properties for the transition */
     animation: blink 1.5s infinite; /* Optional: Add a blinking effect */
 }
 
@@ -106,4 +94,173 @@ body {
 
 .github, .linkedin {
     margin-right: 1rem; /* Space between the icons */
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+
+.portfolioContainer {
+    display: flex;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.myproject {
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.myproject h1 {
+    font-size: 5vw; /* Responsive font size */
+}
+
+.project1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px yellow solid;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 45%; /* Ensure it doesn't exceed parent width */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: add a shadow */
+    position: relative;
+    height: 90vh;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: right;
+    transition: 1s;
+}
+
+.aboutme h1 {
+    font-size: 5vw;
+}
+
+
+.projectsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 2rem; /* Space between project items */
+    justify-content: center; /* Center items on smaller screens */
+}
+
+.project1 img {
+    border-radius: 8px;
+    width: 76vh; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures image covers the container without distortion */
+}
+
+.projectHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectTitle {
+    flex-grow: 1;
+}
+
+.projectTags {
+    margin-left: auto; /* Ensures that the tags move to the right */
+    display: flex;
+    gap: 1rem; /* Adds space between the icons */
+    align-items: center; /* Vertically centers the icons */
+}
+
+.projectTags img {
+    width: 25px;
+    height: auto;
+}
+
+
+.projectTitle h1 {
+    font-size: 3.2vw; /* Responsive title size */
+}
+
+.projectBody {
+    margin-bottom: 1rem;
+    font-size: 1.5vw;
+}
+
+.projectLink {
+    position: absolute;
+    bottom: 0;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+
+.projectLink {
+    font-size: 2vw;
+}
+
+.projectLink a{
+    transition: 0.5s;
+    color: white;
+}
+
+.projectLink a:hover{
+    color: rgb(0, 174, 255);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .projectsContainer {
+        flex-direction: column; /* Stack projects on smaller screens */
+    }
+
+    .project1 {
+        width: 90vw;
+    }
+
+    .myproject h1 {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .project1 {
+        padding: 1rem;
+    }
+
+
+    .projectTitle h1 {
+        font-size: 5vw;
+    }
+
+    .myproject h1 {
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .projectsContainer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .project1 {
+        width: 100%;
+        padding: 1rem;
+    }
+    .myproject h1 {
+        font-size: 12vw;
+    }
+
+    .projectTitle h1 {
+        font-size: 6vw;
+    }
 }
