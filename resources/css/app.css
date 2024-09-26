@@ -126,13 +126,16 @@ body {
 .project1 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between; /* Ensure content stays aligned */
     border: 2px yellow solid;
     padding: 2rem;
     border-radius: 1rem;
-    width: 45%; /* Ensure it doesn't exceed parent width */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: add a shadow */
+    width: 45%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     position: relative;
-    height: 90vh;
+    min-height: 400px; /* Set a minimum height to ensure content is not squished */
+    height: auto;
+    padding-bottom: 5rem;
 }
 
 .aboutme {
@@ -197,8 +200,10 @@ body {
 }
 
 .projectLink {
+    margin-top: auto;
     position: absolute;
-    bottom: 0;
+    bottom: 0.3rem; /* Stick the link 1rem above the container's bottom */
+    right: 1rem; /* Optionally align it to the right */
     align-self: flex-end;
     margin-bottom: 1rem;
 }
