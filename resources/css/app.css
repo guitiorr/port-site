@@ -322,3 +322,12 @@ body {
   animation-name: bounce;
   -moz-animation-name: bounce;
 }
+
+.aboutmeimgbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutmebody p {
+    font-size: 5vh;
+}

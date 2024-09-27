@@ -64,9 +64,11 @@
             <span class="dot">_</span>
             <h1>About me</h1>
         </div>
-        <div class="">
-            <img src="https://m.media-amazon.com/images/S/pv-target-images/dbf6812f59e5080cf420f1056bfceb66f7d6a43a8df19ace503ea70596afc0ff._SX1080_FMjpg_.jpg"
-                alt="">
+        <div class="aboutmeimgbody">
+            <div class="aboutmebody">
+                <p>Hello! You can call me Tio :)</p>
+                <p>I'm a passionate <span style="color: yellow">Computer Science</span>  student, deeply interested in Web Development, especially <span style="color: yellow">backend</span>. I thrive on <span style="color: yellow">problem-solving</span>  and have a sharp eye for <span style="color: yellow">detail</span>. I’m versatile in both independent projects and team collaborations. Whether working solo or in a group, I adapt quickly and manage tasks efficiently to deliver results.</p>
+            </div>
         </div>
     </div>
 
