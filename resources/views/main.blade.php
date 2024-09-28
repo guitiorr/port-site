@@ -36,7 +36,36 @@
                 </a>
             </div>
         </div>
+
+        <div class="projectScroll">
+            <div class="portoClick">
+                <a href="#portfolioContainer">
+                    <!-- Normal SVG (default) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-lightbulb normal-bulb" viewBox="0 0 16 16">
+                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+                    </svg>
+                    <!-- Filled SVG (visible on hover) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-lightbulb-fill filled-bulb" viewBox="0 0 16 16">
+                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="aboutClick">
+                <a href="#aboutContainer">
+                    <!-- Normal SVG (default) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person normal-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg>
+                    <!-- Filled SVG (visible on hover) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person-fill filled-person" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
     </div>
+
+    {{-- OPENER --}}
 
     <div class="openContainer">
         <div class=nameContainer>
@@ -59,7 +88,9 @@
         </div>
     </div>
 
-    <div class="aboutContainer">
+    {{-- ABOUT ME --}}
+
+    <div class="aboutContainer" id="aboutContainer">
         <div class="aboutme">
             <span class="dot">_</span>
             <h1>About me</h1>
@@ -77,7 +108,9 @@
         </div>
     </div>
 
-    <div class="portfolioContainer">
+    {{-- PROJECTS --}}
+
+    <div class="portfolioContainer" id="portfolioContainer">
         <div class="myproject">
             <h1>My projects</h1><span class="dot">_</span>
         </div>
@@ -202,9 +235,6 @@
 
 
     </div>
-
-
-    <script></script>
 
 
 </body>

@@ -9,6 +9,12 @@ body {
     box-sizing: border-box; /* Ensure padding and border are included in width/height calculations */
 }
 
+html {
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
+
 .openContainer {
     display: flex;
     flex-direction: column;
@@ -83,12 +89,83 @@ body {
     flex-direction: row;
     margin-top: 4vh;
     margin-left: 8vh;
+    margin-right: 8vh;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out the items */
 }
+
+.projectScroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center the link vertically */
+    margin-right: 1rem;
+}
+
+.portoClick {
+    position: relative; /* Set relative positioning on the container */
+    width: 16px;        /* Set container width to the same as SVG width */
+    height: 16px;       /* Set container height to the same as SVG height */
+}
+
+.portoClick svg {
+    position: absolute;  /* Stack SVGs on top of each other */
+    top: 0;              /* Align to the top */
+    left: 0;             /* Align to the left */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for the change */
+}
+
+.filled-bulb {
+    opacity: 0; /* Hidden by default */
+}
+
+.portoClick:hover .normal-bulb {
+    opacity: 0; /* Hide normal SVG on hover */
+}
+
+.portoClick:hover .filled-bulb {
+    opacity: 1; /* Show filled SVG on hover */
+}
+
+
+.portoClick:hover .filled-bulb {
+    opacity: 1; /* Show filled SVG on hover */
+}
+
+.aboutClick {
+    position: relative; /* Set relative positioning on the container */
+    width: 16px;        /* Set container width to the same as SVG width */
+    height: 16px;       /* Set container height to the same as SVG height */
+}
+
+.aboutClick svg {
+    position: absolute;  /* Stack SVGs on top of each other */
+    top: 0;              /* Align to the top */
+    left: 0;             /* Align to the left */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for the change */
+}
+
+.filled-person {
+    opacity: 0; /* Hidden by default */
+}
+
+.aboutClick:hover .normal-person {
+    opacity: 0; /* Hide normal SVG on hover */
+}
+
+.aboutClick:hover .filled-person {
+    opacity: 1; /* Show filled SVG on hover */
+}
+
+
 
 .linksContainer {
     display: flex; /* Ensure icons are in a row */
     align-items: center; /* Center icons vertically */
     margin-left: 1rem; /* Add some space to the left of the icons */
+}
+
+.portoClick, .aboutClick {
+    margin-left: 1.8rem;;
 }
 
 
