@@ -67,7 +67,12 @@
         <div class="aboutmeimgbody">
             <div class="aboutmebody">
                 <p>Hello! You can call me Tio :)</p>
-                <p>I'm a passionate <span style="color: yellow">Computer Science</span>  student, deeply interested in Web Development, especially <span style="color: yellow">backend</span>. I thrive on <span style="color: yellow">problem-solving</span>  and have a sharp eye for <span style="color: yellow">detail</span>. I’m versatile in both independent projects and team collaborations. Whether working solo or in a group, I adapt quickly and manage tasks efficiently to deliver results.</p>
+                <p>I'm a passionate <span style="color: yellow">Computer Science</span> student, deeply interested in
+                    Web Development, especially <span style="color: yellow">backend</span>. I thrive on <span
+                        style="color: yellow">problem-solving</span> and have a sharp eye for <span
+                        style="color: yellow">detail</span>. I’m versatile in both independent projects and team
+                    collaborations. Whether working solo or in a group, I adapt quickly and manage tasks efficiently to
+                    deliver results.</p>
             </div>
         </div>
     </div>
@@ -111,18 +116,20 @@
                         <h1>AI Disease Prediction</h1>
                     </div>
                     <div class="projectTags">
-                        <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png" alt="">
-                        <img src="https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png" alt="">
-                        <img
-                            src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"
+                        <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png"
+                            alt="">
+                        <img src="https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png"
+                            alt="">
+                        <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg"
                             alt="">
                     </div>
                 </div>
                 <div class="projectBody">
-                    Final project for 3rd semester Artificial Intelligence course using Python, Streamlit and Kaggle dataset.
+                    Final project for 3rd semester Artificial Intelligence course using Python, Streamlit and Kaggle
+                    dataset.
                 </div>
                 <img class="pyimg"
-                    src="https://private-user-images.githubusercontent.com/74807734/371107405-732a9e05-e98e-4d87-af9d-cecdb941b1ec.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjczNDg3OTksIm5iZiI6MTcyNzM0ODQ5OSwicGF0aCI6Ii83NDgwNzczNC8zNzExMDc0MDUtNzMyYTllMDUtZTk4ZS00ZDg3LWFmOWQtY2VjZGI5NDFiMWVjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI2VDExMDEzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY5ZGU2NWRjODFjMzhjM2VjOTkwYzg3NTViYjUxZGFjZWE3OGFkZmNjNDA4ZjVhYWVmZDA1NTI3MmQxOGE2YjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4-BPnxrBV7OmA6mugvxtSEWwYHatsD3VM9Y-HB57o78"
+                    src="https://private-user-images.githubusercontent.com/74807734/371107405-732a9e05-e98e-4d87-af9d-cecdb941b1ec.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc1MzczNTUsIm5iZiI6MTcyNzUzNzA1NSwicGF0aCI6Ii83NDgwNzczNC8zNzExMDc0MDUtNzMyYTllMDUtZTk4ZS00ZDg3LWFmOWQtY2VjZGI5NDFiMWVjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI4VDE1MjQxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ1MWU3YTBmMmY4NmY2ZDYzOGQ3Yzc3MjY5NGIxMTA1MDAzNGJkZGQxY2Y3YWNiNGViZmFlOGEwODA3ZDNlZWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WaoXokZwDV0Dj0Io025jIbTVccz3Xzdizh7ltf2kqGc"
                     alt="">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/Prototype-AI-Sem-3" class="">
@@ -137,15 +144,17 @@
                         <h1>PerfoFit</h1>
                     </div>
                     <div class="projectTags">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png"
+                            alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png"
+                            alt="">
                     </div>
                 </div>
                 <div class="projectBody">
                     Fitness website made using ASP.NET framework - 4th semester project. I did most of the backend work.
                 </div>
                 <img class="pyimg"
-                    src="https://private-user-images.githubusercontent.com/74807734/371162572-6dc1ad95-286d-4d0d-a195-d1e04f85f0f1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjczNTc2MDEsIm5iZiI6MTcyNzM1NzMwMSwicGF0aCI6Ii83NDgwNzczNC8zNzExNjI1NzItNmRjMWFkOTUtMjg2ZC00ZDBkLWExOTUtZDFlMDRmODVmMGYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI2VDEzMjgyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUyMTY4YjFlMjhmMDEzOTMyMjExYTAyNzUwNWJiMTEyYTEyYTllY2IyZmQ3ZGM2ODczNjI3YmYyMDk3YzJjZDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.HjCyc7E-fLZN-bU_i4oJSl85WMdrYB9AHPvedRbIEAQ"
+                    src="https://private-user-images.githubusercontent.com/74807734/371162572-6dc1ad95-286d-4d0d-a195-d1e04f85f0f1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc1Mzc0MDAsIm5iZiI6MTcyNzUzNzEwMCwicGF0aCI6Ii83NDgwNzczNC8zNzExNjI1NzItNmRjMWFkOTUtMjg2ZC00ZDBkLWExOTUtZDFlMDRmODVmMGYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI4VDE1MjUwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJjZTM4OGEzMjZiZWFhM2M0NmYzYWI4YmJkM2MyMDJhMjQxZjk3OTM3OGI2NTcxOGRkMGFjYzRkMjM4N2UwNzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WaiX4MbRqxoXU1sMUE3Zj3vNfpk6zh_zPSmlgBzbTyw"
                     alt="">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/FitnessApp" class="">
@@ -160,22 +169,27 @@
                         <h1>Second Chance</h1>
                     </div>
                     <div class="projectTags">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
-                            <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z"/>
-                            <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z"/>
-                          </svg>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="">
-                        <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
+                            <path
+                                d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
+                        </svg>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
                             alt="">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpcY0MEsC-KK86cNWulub7GLHSZ9PMWuCqgA&s" alt="">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png"
+                            alt="">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpcY0MEsC-KK86cNWulub7GLHSZ9PMWuCqgA&s"
+                            alt="">
                     </div>
                 </div>
                 <div class="projectBody">
-                    My first Hackathon Project! (Garuda Hacks 5.0) i mostly did some frontend work, this event opened my mind to learn more!
+                    My first Hackathon Project! (Garuda Hacks 5.0) i mostly did some frontend work, this event opened my
+                    mind to learn more!
                 </div>
                 <img class="pyimg"
-                    src="https://private-user-images.githubusercontent.com/74807734/371166414-51dccbeb-d331-4a72-b519-662903d1bf61.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjczNTgxMzAsIm5iZiI6MTcyNzM1NzgzMCwicGF0aCI6Ii83NDgwNzczNC8zNzExNjY0MTQtNTFkY2NiZWItZDMzMS00YTcyLWI1MTktNjYyOTAzZDFiZjYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI2VDEzMzcxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYxNmE5NzlkYTE1NDg5ZDkxZWQxOGZhMmJhMzI4YTgxMmFiNWM1N2ZiNTliYmQ5OTYyYWMwNTZjMTg1ZmEzNWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.FTH25Stj9zI2VXasKnnhVjJoYpSxQ-qUYVu6tFL7lco"
+                    src="https://private-user-images.githubusercontent.com/74807734/371166414-51dccbeb-d331-4a72-b519-662903d1bf61.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc1Mzc0ODIsIm5iZiI6MTcyNzUzNzE4MiwicGF0aCI6Ii83NDgwNzczNC8zNzExNjY0MTQtNTFkY2NiZWItZDMzMS00YTcyLWI1MTktNjYyOTAzZDFiZjYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI4VDE1MjYyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFjMDM1ZDU5NDU0ODg4OGQ4NGY1NGZmZmUyMzcyMTRiOTkxNDFkMjY5NjAwNmUxYTY2ODkwMWRhYWEyYTcwMTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xstwcsS40aCTEPTP9UdiDAFlQYRvHmxaBgxcYLOhpak"
                     alt="">
                 <div class="projectLink">
                     <a href="https://github.com/jamesalv/GH5" class="">
@@ -190,7 +204,7 @@
     </div>
 
 
-        <script></script>
+    <script></script>
 
 
 </body>
