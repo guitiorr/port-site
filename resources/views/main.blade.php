@@ -108,6 +108,12 @@
         </div>
     </div>
 
+    {{-- TECH STACK --}}
+
+    <div class="techStackContainer">
+
+    </div>
+
     {{-- PROJECTS --}}
 
     <div class="portfolioContainer" id="portfolioContainer">
