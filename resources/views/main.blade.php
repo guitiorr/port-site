@@ -111,7 +111,7 @@
     {{-- TECH STACK --}}
 
     <div class="techStackContainer">
-
+        <div></div>
     </div>
 
     {{-- PROJECTS --}}
@@ -140,9 +140,7 @@
                 <div class="projectBody">
                     Discord Music Bot i made back in senior high school.
                 </div>
-                <img class="pyimg"
-                    src="https://private-user-images.githubusercontent.com/74807734/370537977-6a2437d2-d2f7-42b4-aad0-7af9ab8d7e40.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjczNDUyMzQsIm5iZiI6MTcyNzM0NDkzNCwicGF0aCI6Ii83NDgwNzczNC8zNzA1Mzc5NzctNmEyNDM3ZDItZDJmNy00MmI0LWFhZDAtN2FmOWFiOGQ3ZTQwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI2VDEwMDIxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJkNDdlYjU0ZTMwMmNhMDAxOWRlYTY5MTI5ZTczZGJkYzRhNWE1MzgwNzc0YzQwMzA4YWQwMGFmN2U3YzhkNGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5wvum1FB4xJV8bO1ovkEd_YmmnK6MBs374aqvDaEVFw"
-                    alt="">
+                <img class="pyimg"src="{{ asset('storage/images/botbudi.png') }}" alt="Bot Budi">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/bot-budi" class="">
                         View Project
@@ -168,7 +166,7 @@
                     dataset.
                 </div>
                 <img class="pyimg"
-                    src="https://private-user-images.githubusercontent.com/74807734/371107405-732a9e05-e98e-4d87-af9d-cecdb941b1ec.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc1MzczNTUsIm5iZiI6MTcyNzUzNzA1NSwicGF0aCI6Ii83NDgwNzczNC8zNzExMDc0MDUtNzMyYTllMDUtZTk4ZS00ZDg3LWFmOWQtY2VjZGI5NDFiMWVjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI4VDE1MjQxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ1MWU3YTBmMmY4NmY2ZDYzOGQ3Yzc3MjY5NGIxMTA1MDAzNGJkZGQxY2Y3YWNiNGViZmFlOGEwODA3ZDNlZWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WaoXokZwDV0Dj0Io025jIbTVccz3Xzdizh7ltf2kqGc"
+                    src="{{ asset('storage/images/ai.png') }}"
                     alt="">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/Prototype-AI-Sem-3" class="">
@@ -193,7 +191,7 @@
                     Fitness website made using ASP.NET framework - 4th semester project. I did most of the backend work.
                 </div>
                 <img class="pyimg"
-                    src="https://private-user-images.githubusercontent.com/74807734/371162572-6dc1ad95-286d-4d0d-a195-d1e04f85f0f1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc1Mzc0MDAsIm5iZiI6MTcyNzUzNzEwMCwicGF0aCI6Ii83NDgwNzczNC8zNzExNjI1NzItNmRjMWFkOTUtMjg2ZC00ZDBkLWExOTUtZDFlMDRmODVmMGYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI4VDE1MjUwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJjZTM4OGEzMjZiZWFhM2M0NmYzYWI4YmJkM2MyMDJhMjQxZjk3OTM3OGI2NTcxOGRkMGFjYzRkMjM4N2UwNzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WaiX4MbRqxoXU1sMUE3Zj3vNfpk6zh_zPSmlgBzbTyw"
+                    src="{{ asset('storage/images/perfofit.png') }}"
                     alt="">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/FitnessApp" class="">
@@ -228,7 +226,7 @@
                     mind to learn more!
                 </div>
                 <img class="pyimg"
-                    src="https://private-user-images.githubusercontent.com/74807734/371166414-51dccbeb-d331-4a72-b519-662903d1bf61.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc1Mzc0ODIsIm5iZiI6MTcyNzUzNzE4MiwicGF0aCI6Ii83NDgwNzczNC8zNzExNjY0MTQtNTFkY2NiZWItZDMzMS00YTcyLWI1MTktNjYyOTAzZDFiZjYxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTI4VDE1MjYyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFjMDM1ZDU5NDU0ODg4OGQ4NGY1NGZmZmUyMzcyMTRiOTkxNDFkMjY5NjAwNmUxYTY2ODkwMWRhYWEyYTcwMTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.xstwcsS40aCTEPTP9UdiDAFlQYRvHmxaBgxcYLOhpak"
+                    src="{{ asset('storage/images/second chance.png') }}"
                     alt="">
                 <div class="projectLink">
                     <a href="https://github.com/jamesalv/GH5" class="">
