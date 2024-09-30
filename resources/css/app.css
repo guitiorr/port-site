@@ -408,3 +408,50 @@ html {
 .aboutmebody p {
     font-size: 5vh;
 }
+
+.contactContainer {
+    background-color: rgb(20, 20, 27);
+    height: 40vh;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactHead h3{
+    font-size: 6vh;
+    text-align: center;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.phone {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone svg {
+    margin-right: 1rem;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email svg{
+    margin-right: 1rem;
+}
+
+.email h3 {
+    font-size: 4vh;
+}
+
