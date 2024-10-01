@@ -9,6 +9,67 @@ body {
     box-sizing: border-box; /* Ensure padding and border are included in width/height calculations */
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .projectsContainer {
+        flex-direction: column; /* Stack projects on smaller screens */
+    }
+
+    .project1 {
+        width: 90vw; /* Use more viewport width */
+    }
+
+    .myproject h1 {
+        font-size: 8vw;
+    }
+
+    .aboutme {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .project1 {
+        padding: 1rem; /* Reduce padding on smaller screens */
+    }
+
+    .projectTitle h1 {
+        font-size: 5vw;
+    }
+
+    .myproject h1 {
+        font-size: 10vw;
+    }
+
+    .aboutme {
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .projectsContainer {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .project1 {
+        width: 100%; /* Full width for mobile */
+        padding: 1rem; /* Adjust padding for mobile */
+    }
+
+    .myproject h1 {
+        font-size: 12vw;
+    }
+
+    .projectTitle h1 {
+        font-size: 6vw;
+    }
+
+    .aboutme {
+        font-size: 2vh;
+    }
+}
+
 html {
     scroll-behavior: smooth;
     transition: 1s;
@@ -256,54 +317,7 @@ html {
     color: rgb(0, 174, 255);
 }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 1024px) {
-    .projectsContainer {
-        flex-direction: column; /* Stack projects on smaller screens */
-    }
 
-    .project1 {
-        width: 90vw; /* Use more viewport width */
-    }
-
-    .myproject h1 {
-        font-size: 8vw;
-    }
-}
-
-@media (max-width: 768px) {
-    .project1 {
-        padding: 1rem; /* Reduce padding on smaller screens */
-    }
-
-    .projectTitle h1 {
-        font-size: 5vw;
-    }
-
-    .myproject h1 {
-        font-size: 10vw;
-    }
-}
-
-@media (max-width: 480px) {
-    .projectsContainer {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .project1 {
-        width: 100%; /* Full width for mobile */
-        padding: 1rem; /* Adjust padding for mobile */
-    }
-
-    .myproject h1 {
-        font-size: 12vw;
-    }
-
-    .projectTitle h1 {
-        font-size: 6vw;
-    }
-}
 
 @keyframes bounce {
     0%, 100%, 20%, 50%, 80% {
@@ -351,6 +365,7 @@ html {
 }
 
 .contactContainer {
+    justify-content: center;
     background-color: rgb(20, 20, 27);
     height: 40vh; /* Consider adjusting this for better layout */
     margin-top: 10rem;
@@ -369,40 +384,22 @@ html {
     justify-content: center; /* Center header text */
 }
 
-.contactBody {
+.contactLinks {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: center;
+    gap: 2rem; /* Add space between the phone and email sections */
+    margin-top: 1rem; /* Add some margin for spacing */
 }
 
-.contactBody span {
-    font-size: 3vh; /* Responsive text size */
-    margin-bottom: 1rem; /* Space below each line */
-}
-
-.socialMedia {
+.phone, .email {
     display: flex;
-    gap: 2rem; /* Space between social icons */
-    margin-top: 2rem; /* Space above social icons */
+    align-items: center; /* Center the icon and text vertically */
+    color: white; /* Set text color to white for better contrast */
 }
 
-.socialMedia a {
-    transition: transform 0.3s; /* Smooth scaling effect */
+.phone svg, .email svg {
+    margin-right: 0.5rem; /* Space between icon and text */
 }
 
-.socialMedia a:hover {
-    transform: scale(1.1); /* Slightly increase size on hover */
-}
-
-.line {
-    width: 90%;
-    margin: 0 auto; /* Center line */
-    border: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-@media (max-width: 768px) {
-    .socialMedia {
-        flex-direction: column; /* Stack social icons on smaller screens */
-        align-items: center; /* Center align */
-    }
-}
