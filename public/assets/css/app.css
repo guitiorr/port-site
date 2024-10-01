@@ -14,7 +14,6 @@ html {
     transition: 1s;
 }
 
-
 .openContainer {
     display: flex;
     flex-direction: column;
@@ -39,6 +38,10 @@ html {
 
 .headerContainer {
     display: flex;
+    flex-direction: row; /* Ensure horizontal layout on larger screens */
+    margin: 4vh 8vh 0; /* Shorthand for margin */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out the items */
 }
 
 .myname {
@@ -84,16 +87,6 @@ html {
     color: rgb(0, 174, 255);
 }
 
-.headerContainer {
-    display: flex;
-    flex-direction: row;
-    margin-top: 4vh;
-    margin-left: 8vh;
-    margin-right: 8vh;
-    align-items: center; /* Center items vertically */
-    justify-content: space-between; /* Space out the items */
-}
-
 .projectScroll {
     display: flex;
     flex-direction: row;
@@ -101,62 +94,30 @@ html {
     margin-right: 1rem;
 }
 
-.portoClick {
+.portoClick, .aboutClick {
     position: relative; /* Set relative positioning on the container */
     width: 16px;        /* Set container width to the same as SVG width */
     height: 16px;       /* Set container height to the same as SVG height */
 }
 
-.portoClick svg {
+.portoClick svg, .aboutClick svg {
     position: absolute;  /* Stack SVGs on top of each other */
     top: 0;              /* Align to the top */
     left: 0;             /* Align to the left */
     transition: opacity 0.3s ease-in-out; /* Smooth transition for the change */
 }
 
-.filled-bulb {
+.filled-bulb, .filled-person {
     opacity: 0; /* Hidden by default */
 }
 
-.portoClick:hover .normal-bulb {
+.portoClick:hover .normal-bulb, .aboutClick:hover .normal-person {
     opacity: 0; /* Hide normal SVG on hover */
 }
 
-.portoClick:hover .filled-bulb {
+.portoClick:hover .filled-bulb, .aboutClick:hover .filled-person {
     opacity: 1; /* Show filled SVG on hover */
 }
-
-
-.portoClick:hover .filled-bulb {
-    opacity: 1; /* Show filled SVG on hover */
-}
-
-.aboutClick {
-    position: relative; /* Set relative positioning on the container */
-    width: 16px;        /* Set container width to the same as SVG width */
-    height: 16px;       /* Set container height to the same as SVG height */
-}
-
-.aboutClick svg {
-    position: absolute;  /* Stack SVGs on top of each other */
-    top: 0;              /* Align to the top */
-    left: 0;             /* Align to the left */
-    transition: opacity 0.3s ease-in-out; /* Smooth transition for the change */
-}
-
-.filled-person {
-    opacity: 0; /* Hidden by default */
-}
-
-.aboutClick:hover .normal-person {
-    opacity: 0; /* Hide normal SVG on hover */
-}
-
-.aboutClick:hover .filled-person {
-    opacity: 1; /* Show filled SVG on hover */
-}
-
-
 
 .linksContainer {
     display: flex; /* Ensure icons are in a row */
@@ -165,9 +126,8 @@ html {
 }
 
 .portoClick, .aboutClick {
-    margin-left: 1.8rem;;
+    margin-left: 1.8rem; /* Space between icon containers */
 }
-
 
 .github, .linkedin {
     margin-right: 1rem; /* Space between the icons */
@@ -176,7 +136,7 @@ html {
 .aboutContainer {
     display: flex;
     flex-direction: column;
-    height: 120vh;
+    height: 120vh; /* Consider changing this for better responsiveness */
     margin-left: 20vh;
     margin-right: 20vh;
 }
@@ -227,7 +187,6 @@ html {
     font-size: 5vw;
 }
 
-
 .projectsContainer {
     display: flex;
     flex-direction: row;
@@ -238,7 +197,7 @@ html {
 
 .project1 img {
     border-radius: 8px;
-    width: 76vh; /* Make image responsive */
+    width: 100%; /* Make image responsive */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensures image covers the container without distortion */
 }
@@ -266,7 +225,6 @@ html {
     height: auto;
 }
 
-
 .projectTitle h1 {
     font-size: 3.2vw; /* Responsive title size */
 }
@@ -289,12 +247,12 @@ html {
     font-size: 2vw;
 }
 
-.projectLink a{
+.projectLink a {
     transition: 0.5s;
     color: white;
 }
 
-.projectLink a:hover{
+.projectLink a:hover {
     color: rgb(0, 174, 255);
 }
 
@@ -305,7 +263,7 @@ html {
     }
 
     .project1 {
-        width: 90vw;
+        width: 90vw; /* Use more viewport width */
     }
 
     .myproject h1 {
@@ -315,9 +273,8 @@ html {
 
 @media (max-width: 768px) {
     .project1 {
-        padding: 1rem;
+        padding: 1rem; /* Reduce padding on smaller screens */
     }
-
 
     .projectTitle h1 {
         font-size: 5vw;
@@ -335,9 +292,10 @@ html {
     }
 
     .project1 {
-        width: 100%;
-        padding: 1rem;
+        width: 100%; /* Full width for mobile */
+        padding: 1rem; /* Adjust padding for mobile */
     }
+
     .myproject h1 {
         font-size: 12vw;
     }
@@ -347,57 +305,40 @@ html {
     }
 }
 
-
 @keyframes bounce {
-	0%, 100%, 20%, 50%, 80% {
-		-webkit-transform: translateY(0);
-		-ms-transform:     translateY(0);
-		transform:         translateY(0)
-	}
-	40% {
-		-webkit-transform: translateY(-15px);
-		-ms-transform:     translateY(-15px);
-		transform:         translateY(-15px)
-	}
-	60% {
-		-webkit-transform: translateY(-7px);
-		-ms-transform:     translateY(-7px);
-		transform:         translateY(-7px)
-	}
+    0%, 100%, 20%, 50%, 80% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-7px);
+    }
 }
 
-.linkedin{
-    -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
+.linkedin {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
-.linkedin:hover{
+.linkedin:hover {
     cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
+    animation-name: bounce;
 }
 
-.github{
-    -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
+.github {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .github:hover {
     cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
+    animation-name: bounce;
 }
 
 .aboutmeimgbody {
@@ -411,47 +352,57 @@ html {
 
 .contactContainer {
     background-color: rgb(20, 20, 27);
-    height: 40vh;
+    height: 40vh; /* Consider adjusting this for better layout */
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
 }
 
-.contactHead h3{
+.contactHead h3 {
     font-size: 6vh;
     text-align: center;
+    margin: 0; /* Remove default margin */
 }
 
-.contactLinks {
+.contactHead {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    justify-content: center; /* Center header text */
 }
 
-.phone {
-    margin-right: 2rem;
+.contactBody {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
-.phone svg {
-    margin-right: 1rem;
+.contactBody span {
+    font-size: 3vh; /* Responsive text size */
+    margin-bottom: 1rem; /* Space below each line */
 }
 
-.email {
+.socialMedia {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    gap: 2rem; /* Space between social icons */
+    margin-top: 2rem; /* Space above social icons */
 }
 
-.email svg{
-    margin-right: 1rem;
+.socialMedia a {
+    transition: transform 0.3s; /* Smooth scaling effect */
 }
 
-.email h3 {
-    font-size: 4vh;
+.socialMedia a:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
 }
 
+.line {
+    width: 90%;
+    margin: 0 auto; /* Center line */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+    .socialMedia {
+        flex-direction: column; /* Stack social icons on smaller screens */
+        align-items: center; /* Center align */
+    }
+}

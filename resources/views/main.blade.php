@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome!</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    {{-- <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}"> --}}
+    @vite(['resources/css/app.css'])
+    <link rel="stylesheet" href="{{ secure_asset("assets/css/app.css") }}">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
     </style>
@@ -141,7 +141,7 @@
                 <div class="projectBody">
                     Discord Music Bot i made back in senior high school.
                 </div>
-                <img class="pyimg" src="{{ Vite::asset('resources/images/botbudi.png') }}" alt="Bot Budi">
+                <img class="pyimg" src="{{ asset("assets/images/botbudi.png") }}" alt="Bot Budi">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/bot-budi" class="">
                         View Project
@@ -166,7 +166,7 @@
                     Final project for 3rd semester Artificial Intelligence course using Python, Streamlit and Kaggle
                     dataset.
                 </div>
-                <img class="pyimg" src="{{ Vite::asset('resources/images/ai.png') }}" alt="Bot Budi">
+                <img class="pyimg" src="{{ asset("assets/images/ai.png") }}" alt="Bot Budi">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/Prototype-AI-Sem-3" class="">
                         View Project
@@ -189,7 +189,7 @@
                 <div class="projectBody">
                     Fitness website made using ASP.NET framework - 4th semester project. I did most of the backend work.
                 </div>
-                <img class="pyimg" src="{{ Vite::asset('resources/images/perfofit.png') }}" alt="Bot Budi">
+                <img class="pyimg" src="{{ asset("assets/images/perfofit.png") }}" alt="Bot Budi">
                 <div class="projectLink">
                     <a href="https://github.com/guitiorr/FitnessApp" class="">
                         View Project
@@ -222,7 +222,7 @@
                     My first Hackathon Project! (Garuda Hacks 5.0) i mostly did some frontend work, this event opened my
                     mind to learn more!
                 </div>
-                <img class="pyimg" src="{{ Vite::asset('resources/images/second chance.png') }}" alt="Bot Budi">
+                <img class="pyimg" src="{{ asset("assets/images/second chance.png") }}" alt="Bot Budi">
                 <div class="projectLink">
                     <a href="https://github.com/jamesalv/GH5" class="">
                         View Project
