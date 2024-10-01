@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome!</title>
-    @vite(['resources/css/app.css'])
+    @vite(['public/assets/css/app.css'])
     <link rel="stylesheet" href="{{ secure_asset("assets/css/app.css") }}">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
