@@ -417,9 +417,31 @@ html {
 
 @media (max-width: 768px) {
     .aboutContainer p{
-        font-size: 20px;
+        font-size: 2.5vh;
     }
     .aboutContainer{
+        margin-right: 5rem;
+        margin-left: 5rem;
         height: 500px;
+    }
+
+    .aboutme span{
+        font-size: 4vh;
+    }
+
+    .aboutme h1 {
+        font-size: 5vh;
+    }
+
+    .myproject {
+        margin: 0;
+    }
+
+    .myproject h1 {
+        font-size: 5vh;
+    }
+
+    .myproject span {
+        font-size: 4vh;
     }
 }
