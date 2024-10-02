@@ -209,7 +209,6 @@ html {
 .aboutContainer {
     display: flex;
     flex-direction: column;
-    height: 120vh; /* Consider changing this for better responsiveness */
     margin-left: 20vh;
     margin-right: 20vh;
 }
