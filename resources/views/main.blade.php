@@ -106,7 +106,7 @@
                 deliver results.</p>
         </div>
         <div class="cv-button">
-            <a href="/https://www.canva.com/design/DAGPVS8mvTA/ZTdQqSNPQpMoNOIVGgGDTQ/view?utm_content=DAGPVS8mvTA&utm_campaign=designshare&utm_medium=link&utm_source=editor" download="Tio_CV" class="download-btn">View My CV</a>
+            <a href="https://www.canva.com/design/DAGPVS8mvTA/ZTdQqSNPQpMoNOIVGgGDTQ/view?utm_content=DAGPVS8mvTA&utm_campaign=designshare&utm_medium=link&utm_source=editor" download="Tio_CV" class="download-btn">View My CV</a>
         </div>
     </div>
 </div>
