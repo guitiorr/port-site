@@ -90,24 +90,27 @@
     </div>
 
     {{-- ABOUT ME --}}
-
-    <div class="aboutContainer" id="aboutContainer">
-        <div class="aboutme">
-            <span class="dot">_</span>
-            <h1>About me</h1>
+<div class="aboutContainer" id="aboutContainer">
+    <div class="aboutme">
+        <span class="dot">_</span>
+        <h1>About me</h1>
+    </div>
+    <div class="aboutmeimgbody">
+        <div class="aboutmebody">
+            <p>Hello! You can call me Tio :)</p>
+            <p>I'm a passionate <span style="color: yellow">Computer Science</span> student, deeply interested in
+                Web Development, especially <span style="color: yellow">backend</span>. I thrive on <span
+                    style="color: yellow">problem-solving</span> and have a sharp eye for <span
+                    style="color: yellow">detail</span>. I’m versatile in both independent projects and team
+                collaborations. Whether working solo or in a group, I adapt quickly and manage tasks efficiently to
+                deliver results.</p>
         </div>
-        <div class="aboutmeimgbody">
-            <div class="aboutmebody">
-                <p>Hello! You can call me Tio :)</p>
-                <p>I'm a passionate <span style="color: yellow">Computer Science</span> student, deeply interested in
-                    Web Development, especially <span style="color: yellow">backend</span>. I thrive on <span
-                        style="color: yellow">problem-solving</span> and have a sharp eye for <span
-                        style="color: yellow">detail</span>. I’m versatile in both independent projects and team
-                    collaborations. Whether working solo or in a group, I adapt quickly and manage tasks efficiently to
-                    deliver results.</p>
-            </div>
+        <div class="cv-button">
+            <a href="/path-to-your-cv.pdf" download="Tio_CV" class="download-btn">View My CV</a>
         </div>
     </div>
+</div>
+
 
     {{-- TECH STACK --}}
 
