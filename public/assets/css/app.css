@@ -307,7 +307,7 @@ html {
 
 .projectBody {
     margin-bottom: 1rem;
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 
 .projectLink {
@@ -467,4 +467,63 @@ html {
 
 .download-btn:hover {
     background-color: #e6b800;
+}
+.portfolioContainer{
+    margin-top: 100px;
+}
+@media(max-width:862px){
+    .project1>img{
+        align-self: center;
+    }
+    .projectBody {
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+    .project1 h1{
+        font-size: 25px;
+    }
+    .project1 a{
+        font-size: 23px;
+    }
+}
+@media(max-width:673px){
+    .project1{
+        width: 400px;
+    }
+    .project1>img{
+        width: 300px;
+    }
+
+    /* .aboutmebody p{
+        font-size: 12px;
+    } */
+    /* .myproject h1{
+    }*/
+}
+@media(max-width:590px){
+    .project1{
+        width: 300px;
+        height: 400px;
+    }
+    .project1>img{
+        width: 200px;
+    }
+    .contactLinks h3{
+        font-size: 1em;
+    }
+    .contactHead>h3{
+        font-size: 3vh;
+    }
+    .myproject{
+        margin-top: 40px;
+    }
+    .projectBody {
+        font-size: 16px;
+    }
+    .project1 h1{
+        font-size: 19px;
+    }
+    .project1 a{
+        font-size: 21px;
+    }
 }
