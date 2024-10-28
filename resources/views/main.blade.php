@@ -142,7 +142,7 @@
                     </div>
                 </div>
                 <div class="projectBody">
-                    Discord Music Bot i made back in senior high school.
+                    Discord Bot made with Python. This bot's main feature is to play music inside a discord voice channel. Source for music is taken from YouTube. This bot also has other fun commands and interactions and even a tic tac toe game!
                 </div>
                 <img class="pyimg" src="{{ asset("assets/images/botbudi.png") }}" alt="Bot Budi">
                 <div class="projectLink">
@@ -166,8 +166,7 @@
                     </div>
                 </div>
                 <div class="projectBody">
-                    Final project for 3rd semester Artificial Intelligence course using Python, Streamlit and Kaggle
-                    dataset.
+                    AI web app to predict diseases based on input symptoms, made using streamlit, model and dataset sourced from kaggle.
                 </div>
                 <img class="pyimg" src="{{ asset("assets/images/ai.png") }}" alt="AI">
                 <div class="projectLink">
@@ -190,7 +189,7 @@
                     </div>
                 </div>
                 <div class="projectBody">
-                    Fitness website made using ASP.NET framework - 4th semester project. I did most of the backend work.
+                    PerfoFit is a personalized fitness platform that helps you achieve your health goals by offering workout plans, the ability to hire professional trainers, and customized meal arrangements. Whether you're focused on building muscle, losing weight, or staying active, PerfoFit provides a comprehensive library of exercises for each muscle group, ensuring targeted and effective workouts. With the added benefit of arranging meals suited to your fitness plan, PerfoFit is your all-in-one solution for expert coaching, nutrition, and personalized fitness.
                 </div>
                 <img class="pyimg" src="{{ asset("assets/images/perfofit.png") }}" alt="Perfofit">
                 <div class="projectLink">
@@ -222,8 +221,7 @@
                     </div>
                 </div>
                 <div class="projectBody">
-                    My first Hackathon Project! (Garuda Hacks 5.0) i mostly did some frontend work, this event opened my
-                    mind to learn more!
+                    SecondChance is a platform that helps ex-convicts reintegrate into society through personal development, community service, and job training. Using gamification, users complete tasks like journaling and skill-building to earn points, which unlock job opportunities and mentorship. With AI-verified journaling and a chatbot consultant, SecondChance offers a fresh start for those seeking a stable, crime-free life.
                 </div>
                 <img class="pyimg" src="{{ asset("assets/images/second chance.png") }}" alt="Second Chance">
                 <div class="projectLink">

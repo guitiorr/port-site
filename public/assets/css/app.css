@@ -503,7 +503,7 @@ html {
 @media(max-width:590px){
     .project1{
         width: 300px;
-        height: 400px;
+        height: 500px;
     }
     .project1>img{
         width: 200px;
